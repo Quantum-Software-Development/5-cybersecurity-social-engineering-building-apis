@@ -1,5 +1,10 @@
-# 5-cybersecurity-social-engineering-building-apis
-**🔐 3- Cybersecurity &amp; Social Engineering:** Educational repo for **Class 6**, focused on building RESTful APIs with Python and Flask, handling query strings, and serving Excel data via Pandas—while applying real-world cybersecurity and social engineering principles.
+# Building APIs with Python & Flask | Cybersecurity & Social Engineering
+
+**Class 6 — API Development and Data Integration**
+
+An academic repository exploring API fundamentals, REST architecture, and JSON through practical exercises with Python and Flask. Topics include endpoint creation, URL parameters, query strings, API consumption, and Excel data integration with Pandas.
+
+Developed as part of the Cybersecurity & Social Engineering course, this material provides a foundation for understanding how applications communicate and expose data through APIs.
 
 
 <p align="center">
