@@ -1,0 +1,112 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="337" height="46" viewBox="0 0 337 46" role="img" aria-label="Presentation: View Slides">
+  <title>Presentation: View Slides</title>
+
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1">
+      <stop stop-color="#101f2f"/>
+      <stop offset="1" stop-color="#03070c"/>
+    </linearGradient>
+
+    <linearGradient id="accent">
+      <stop stop-color="#254051"/>
+      <stop offset="1" stop-color="#71ddce"/>
+    </linearGradient>
+  </defs>
+
+  <rect
+    x=".8" y=".8"
+    width="335.4" height="44.4"
+    rx="9.6"
+    fill="url(#bg)"
+    stroke="url(#accent)"
+  />
+
+  <g
+    transform="translate(32 23)"
+    fill="none"
+    stroke="#edf4f7"
+    stroke-width="1.2"
+  >
+    <ellipse rx="11" ry="4"/>
+    <ellipse rx="11" ry="4" transform="rotate(60)"/>
+    <ellipse rx="11" ry="4" transform="rotate(120)"/>
+    <circle r="1.7" fill="#71ddce" stroke="none"/>
+  </g>
+
+  <text
+    x="54.6" y="27.36"
+    fill="#edf4f7"
+    font-family="Segoe UI,Helvetica,Arial,sans-serif"
+    font-size="12.24"
+    font-weight="700"
+    textLength="110"
+    lengthAdjust="spacing"
+  >PRESENTATION</text>
+
+  <path d="M182 13.4v19.2" stroke="#254051"/>
+
+  <text
+    x="199.4" y="27.36"
+    fill="#71ddce"
+    font-family="Segoe UI,Helvetica,Arial,sans-serif"
+    font-size="11.48"
+    font-weight="600"
+    textLength="88"
+    lengthAdjust="spacing"
+  >VIEW SLIDES</text>
+
+  <rect
+    class="run"
+    x=".8" y=".8"
+    width="335.4" height="44.4"
+    rx="9.6"
+    fill="none"
+    stroke="#71ddce"
+    stroke-width="1.6"
+    pathLength="100"
+    stroke-dasharray="9 91"
+    stroke-linecap="round"
+  />
+
+  <path
+    class="arrow"
+    d="m311 18 5 5-5 5"
+    fill="none"
+    stroke="#71ddce"
+    stroke-width="1.8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <style>
+    @keyframes run {
+      to { stroke-dashoffset: -100; }
+    }
+
+    @keyframes nudge {
+      0%, 100% {
+        transform: translateX(0);
+        opacity: .75;
+      }
+      50% {
+        transform: translateX(3px);
+        opacity: 1;
+      }
+    }
+
+    .run {
+      animation: run 3.2s linear infinite;
+    }
+
+    .arrow {
+      animation: nudge 1.4s ease-in-out infinite;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .run, .arrow {
+        animation: none;
+      }
+    }
+  </style>
+</svg>
