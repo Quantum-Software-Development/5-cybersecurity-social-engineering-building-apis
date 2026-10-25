@@ -1,0 +1,42 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="72" viewBox="0 0 640 72" role="img" aria-label="Presentation: View Slides">
+  <title>Presentation: View Slides</title>
+
+  <defs>
+    <linearGradient id="background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#101f2f"/>
+      <stop offset="100%" stop-color="#03070c"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#254051"/>
+      <stop offset="100%" stop-color="#71ddce"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="636" height="68" rx="16" fill="url(#background)" stroke="url(#border)" stroke-width="1.5"/>
+
+  <rect x="2" y="2" width="636" height="68" rx="16" fill="none" stroke="#71ddce" stroke-width="2.5" stroke-linecap="round" pathLength="100" stroke-dasharray="13 87">
+    <animate attributeName="stroke-dashoffset" from="0" to="-100" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <g transform="translate(47 36)">
+    <g fill="none" stroke="#edf4f7" stroke-width="1.5">
+      <ellipse rx="20" ry="7"/>
+      <ellipse rx="20" ry="7" transform="rotate(60)"/>
+      <ellipse rx="20" ry="7" transform="rotate(120)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
+    </g>
+    <circle r="3" fill="#71ddce"/>
+  </g>
+
+  <text x="89" y="43" fill="#edf4f7" font-family="Segoe UI,Arial,Helvetica,sans-serif" font-size="20" font-weight="700" letter-spacing="2">PRESENTATION</text>
+
+  <path d="M326 20v32" stroke="#254051" stroke-width="1.5"/>
+
+  <text x="362" y="43" fill="#71ddce" font-family="Segoe UI,Arial,Helvetica,sans-serif" font-size="20" font-weight="700" letter-spacing="2">VIEW SLIDES</text>
+
+  <g>
+    <path d="m588 26 10 10-10 10" fill="none" stroke="#71ddce" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;6 0;0 0" dur="1.6s" repeatCount="indefinite"/>
+  </g>
+</svg>
